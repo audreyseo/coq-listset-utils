@@ -1,0 +1,18 @@
+opam-version: "2.0"
+synopsis:
+                "ListSetUtils: Utilities and helper lemmas for working with list-based sets"
+description: """
+The built-in Coq.Lists.ListSet has many useful lemmas for lightweight list-based sets, but is not complete by any means. This package supplements Coq.Lists.ListSet with extra utilities and tactics for making proofs about list-based sets easier.
+"""                
+maintainer: ["Audrey Seo <audreyleeseo@gmail.com>"]
+authors: ["Audrey Seo <audreyleeseo@gmail.com>"]
+license: "MIT"
+homepage: "https://github.com/audreyseo/coq-listset-utils"
+depends: [
+  "ocaml" {>= "4.08"}
+  "dune" {>= "3.14"}
+  "coq-core" {>= "8.16" & < "8.17~"}
+  "coq-stdlib" {>= "8.16" & < "8.17~"}
+]
+build: ["dune" "build"]
+install: ["dune" "install"]

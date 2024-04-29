@@ -1,0 +1,3 @@
+(coq.theory
+ (name ListSetUtils)
+ (package coq-listset-utils))
