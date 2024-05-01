@@ -1,3 +1,12 @@
+; (include_subdirs unqualified)
+
+(env
+ (coq
+  (flags
+   (-R "./"))))
+
 (coq.theory
  (name ListSetUtils)
  (package coq-listset-utils))
+
+; (theories ListSetUtils))

@@ -1,0 +1,8 @@
+-R theories ListSetUtils
+
+theories/Basic.v
+theories/MoreSets.v
+theories/NoDupPreservation.v
+theories/Remove.v
+theories/Tactics.v
+theories/Utils.v

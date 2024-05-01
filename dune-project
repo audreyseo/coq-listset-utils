@@ -18,7 +18,7 @@
 (maintainers "Audrey Seo <audreyleeseo@gmail.com>")
 
 (package
- (name listset-utils)
+ (name coq-listset-utils)
  (synopsis
   "ListSetUtils: Utilities and helper lemmas for working with list-based sets")
  (description
