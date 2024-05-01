@@ -22,3 +22,5 @@ faculties for reasoning about a few key points:
   x (set_union Xeq_dec s1 s2) -> ~ In x s1 /\ ~ In x s2`)
 - Tactics for reducing set inclusions/exclusions down to their basic
   components (when this does not introduce more branches)
+- Preservation of uniqueness (i.e., preserving `NoDup`)
+
